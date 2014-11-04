@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "PFLogin.h"
+#import <Parse/Parse.h>
+
 
 @interface ViewController ()
 
@@ -26,7 +29,9 @@
     
     if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller
-        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+   //     PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+        PFLogin *logInViewController = [[PFLogin alloc] init];
+
         
         [logInViewController setDelegate:self]; // Set ourselves as the delegate
         
@@ -43,8 +48,8 @@
     
     PFUser *currentUser = [PFUser currentUser];
     if (currentUser) {
-        self.username.text=[NSString stringWithFormat:@"Weclome, %@", currentUser.username];
-        
+        self.username.text=[NSString stringWithFormat:@"Welcome, %@", currentUser.username];
+        usernames=[NSString stringWithFormat:@"%@", currentUser.username];
     } else {
         // show the signup or login screen
     }
@@ -124,7 +129,7 @@
     [PFUser logOut];
       if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller
-        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+        PFLogin *logInViewController = [[PFLogin alloc] init];
         [logInViewController setDelegate:self]; // Set ourselves as the delegate
         
         // Create the sign up view controller

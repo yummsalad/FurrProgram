@@ -10,6 +10,9 @@
 #import <CoreData/CoreData.h>
 #import <Parse/Parse.h>
 
+NSString * usernames;
+NSString * chatmsg;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

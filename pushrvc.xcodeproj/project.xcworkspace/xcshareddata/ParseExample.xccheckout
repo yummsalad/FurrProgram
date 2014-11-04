@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>45FF4CA2-CF55-4855-AB5A-F4A8D9733C10</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParseExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>340E53440E35D5FDD9FBEDAA63C8D99A19391441</key>
+		<string>https://github.com/ioscourse/ParseExample---Login-and-Chat.git</string>
+		<key>EA7088F9752353C95E870B722BE4EECAB89EDB9C</key>
+		<string>https://github.com/dmendels/chatDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParseExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>340E53440E35D5FDD9FBEDAA63C8D99A19391441</key>
+		<string>../..</string>
+		<key>EA7088F9752353C95E870B722BE4EECAB89EDB9C</key>
+		<string>../..chatDemo</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ioscourse/ParseExample---Login-and-Chat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>340E53440E35D5FDD9FBEDAA63C8D99A19391441</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>340E53440E35D5FDD9FBEDAA63C8D99A19391441</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParseExample</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA7088F9752353C95E870B722BE4EECAB89EDB9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParseExamplechatDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
