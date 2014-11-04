@@ -17,16 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    // ****************************************************************************
-    // Fill in with your Parse and Twitter credentials. Don't forget to add your
-    // Facebook id in Info.plist:
-    // ****************************************************************************
+
     [Parse setApplicationId:@"l6EgU7oig40mXDifW1uAR6DdmcfoeYJG5vKPhbaP"
                   clientKey:@"sDYG9VH1UnQXe6zp2cooQrgG30w1Xatl1qebOpOR"];
-  //  [PF initializeFacebook];
-    [PFTwitterUtils initializeWithConsumerKey:@" KlkDcSjcu6QiGqMmvYUALnTqk" consumerSecret:@" tbgFqWY7rjDJzXszyO4fDTK2Qlw7RAONw6H5W3wijcGMOkg4C4"];
     
+   
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     [PFGeoPoint geoPointForCurrentLocationInBackground:^(PFGeoPoint *geoPoint, NSError *error) {
         if (!error) {
