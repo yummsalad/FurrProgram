@@ -4,6 +4,7 @@ ParseExample---Login-and-Chat
 Visit: Parse.com and signup to parse.com
 
 1) Create Parse App
+
 2) Update "AppDelegate.h" with your parse app setapplicationId and clientKey
 
 [Parse setApplicationId:@"l6EgU7oig40mXDifW1uAR6DdmcfoeYJG5vKPhbaP"
