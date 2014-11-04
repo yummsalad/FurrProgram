@@ -1,7 +1,7 @@
 ParseExample---Login-and-Chat
 =============================
 
-Visit: Parse.com and signup to parse.com
+Visit: http://Parse.com and signup to parse.com
 
 1) Create Parse App
 
