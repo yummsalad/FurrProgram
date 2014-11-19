@@ -18,10 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [Parse setApplicationId:@"l6EgU7oig40mXDifW1uAR6DdmcfoeYJG5vKPhbaP"
-                  clientKey:@"sDYG9VH1UnQXe6zp2cooQrgG30w1Xatl1qebOpOR"];
+//teacher parse    [Parse setApplicationId:@"l6EgU7oig40mXDifW1uAR6DdmcfoeYJG5vKPhbaP"
+//                  clientKey:@"sDYG9VH1UnQXe6zp2cooQrgG30w1Xatl1qebOpOR"];
     
-   
+    [Parse setApplicationId:@"kbePs30L2PcnMzhWJ32hYIttTxRXLR58USPxqKIq"
+                  clientKey:@"UAHcAstIuDSVHpHTpCOMM9jVAeYzPcZ06m85RRyS"];
+    
+    
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     [PFGeoPoint geoPointForCurrentLocationInBackground:^(PFGeoPoint *geoPoint, NSError *error) {
         if (!error) {

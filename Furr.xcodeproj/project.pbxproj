@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		362D4D9B1A033D34008D7537 /* PFLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 362D4D9A1A033D34008D7537 /* PFLogin.m */; };
-		362D4D9D1A033EED008D7537 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 362D4D9C1A033EED008D7537 /* logo.png */; };
 		36345ED11A0583430029A7E3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36345ED01A0583430029A7E3 /* Parse.framework */; };
 		3661791F1A0026640031CE29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3661791E1A0026640031CE29 /* main.m */; };
 		366179221A0026640031CE29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366179211A0026640031CE29 /* AppDelegate.m */; };
@@ -47,6 +46,12 @@
 		36E533EE1A058B3A00EAB861 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E533EA1A058B3A00EAB861 /* Bolts.framework */; };
 		36E533EF1A058B3A00EAB861 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E533EB1A058B3A00EAB861 /* Parse.framework */; };
 		36E533F01A058B3A00EAB861 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E533EC1A058B3A00EAB861 /* ParseFacebookUtils.framework */; };
+		B076FAA51A186BB20012B33C /* furrlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B076FAA41A186BB20012B33C /* furrlogo.png */; };
+		B0EF08911A1D312400706BE3 /* furr_-3_only.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EF088D1A1D312400706BE3 /* furr_-3_only.png */; };
+		B0EF08921A1D312400706BE3 /* FurrIcon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EF088E1A1D312400706BE3 /* FurrIcon_120.png */; };
+		B0EF08931A1D312400706BE3 /* furrIcon_appstore_retina in Resources */ = {isa = PBXBuildFile; fileRef = B0EF088F1A1D312400706BE3 /* furrIcon_appstore_retina */; };
+		B0EF08941A1D312400706BE3 /* FurrIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EF08901A1D312400706BE3 /* FurrIcon180.png */; };
+		B0EF08961A1D410800706BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EF08951A1D410800706BE3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +67,8 @@
 /* Begin PBXFileReference section */
 		362D4D991A033D34008D7537 /* PFLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLogin.h; sourceTree = "<group>"; };
 		362D4D9A1A033D34008D7537 /* PFLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLogin.m; sourceTree = "<group>"; };
-		362D4D9C1A033EED008D7537 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		36345ED01A0583430029A7E3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		366179191A0026640031CE29 /* pushrvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushrvc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		366179191A0026640031CE29 /* Furr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3661791D1A0026640031CE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3661791E1A0026640031CE29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		366179201A0026640031CE29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,7 +79,7 @@
 		3661792A1A0026640031CE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3661792C1A0026640031CE29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3661792F1A0026640031CE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		366179351A0026640031CE29 /* pushrvcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushrvcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366179351A0026640031CE29 /* FurrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366179451A0027510031CE29 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		366179461A0027510031CE29 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		366179471A0027510031CE29 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -108,6 +112,12 @@
 		36E533EA1A058B3A00EAB861 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		36E533EB1A058B3A00EAB861 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		36E533EC1A058B3A00EAB861 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B076FAA41A186BB20012B33C /* furrlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furrlogo.png; sourceTree = "<group>"; };
+		B0EF088D1A1D312400706BE3 /* furr_-3_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "furr_-3_only.png"; sourceTree = "<group>"; };
+		B0EF088E1A1D312400706BE3 /* FurrIcon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FurrIcon_120.png; sourceTree = "<group>"; };
+		B0EF088F1A1D312400706BE3 /* furrIcon_appstore_retina */ = {isa = PBXFileReference; lastKnownFileType = file; path = furrIcon_appstore_retina; sourceTree = "<group>"; };
+		B0EF08901A1D312400706BE3 /* FurrIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FurrIcon180.png; sourceTree = "<group>"; };
+		B0EF08951A1D410800706BE3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Dropbox/iOS programming/Furr/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +184,6 @@
 				36345ED01A0583430029A7E3 /* Parse.framework */,
 				36D9CE0B1A038C6C00B6D78A /* pages */,
 				36D9CE091A034B8B00B6D78A /* UIKit.framework */,
-				362D4D9C1A033EED008D7537 /* logo.png */,
 				362D4D991A033D34008D7537 /* PFLogin.h */,
 				362D4D9A1A033D34008D7537 /* PFLogin.m */,
 				366179651A0033EA0031CE29 /* Foundation.framework */,
@@ -194,7 +203,7 @@
 				366179451A0027510031CE29 /* Bolts.framework */,
 				366179461A0027510031CE29 /* Parse.framework */,
 				366179471A0027510031CE29 /* ParseFacebookUtils.framework */,
-				3661791B1A0026640031CE29 /* ParseExample */,
+				3661791B1A0026640031CE29 /* MainProgram */,
 				3661791A1A0026640031CE29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,23 +211,25 @@
 		3661791A1A0026640031CE29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				366179191A0026640031CE29 /* pushrvc.app */,
-				366179351A0026640031CE29 /* pushrvcTests.xctest */,
+				366179191A0026640031CE29 /* Furr.app */,
+				366179351A0026640031CE29 /* FurrTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3661791B1A0026640031CE29 /* ParseExample */ = {
+		3661791B1A0026640031CE29 /* MainProgram */ = {
 			isa = PBXGroup;
 			children = (
 				366179201A0026640031CE29 /* AppDelegate.h */,
 				366179211A0026640031CE29 /* AppDelegate.m */,
 				366179291A0026640031CE29 /* Main.storyboard */,
+				B0EF08951A1D410800706BE3 /* Main.storyboard */,
 				3661792C1A0026640031CE29 /* Images.xcassets */,
 				3661792E1A0026640031CE29 /* LaunchScreen.xib */,
 				366179231A0026640031CE29 /* ParseExample.xcdatamodeld */,
 				3661791C1A0026640031CE29 /* Supporting Files */,
 			);
+			name = MainProgram;
 			path = ParseExample;
 			sourceTree = "<group>";
 		};
@@ -234,6 +245,11 @@
 		36653F851A084A9A0049CF4D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B0EF088D1A1D312400706BE3 /* furr_-3_only.png */,
+				B0EF088E1A1D312400706BE3 /* FurrIcon_120.png */,
+				B0EF088F1A1D312400706BE3 /* furrIcon_appstore_retina */,
+				B0EF08901A1D312400706BE3 /* FurrIcon180.png */,
+				B076FAA41A186BB20012B33C /* furrlogo.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -254,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		366179181A0026640031CE29 /* pushrvc */ = {
+		366179181A0026640031CE29 /* Furr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3661793F1A0026640031CE29 /* Build configuration list for PBXNativeTarget "pushrvc" */;
+			buildConfigurationList = 3661793F1A0026640031CE29 /* Build configuration list for PBXNativeTarget "Furr" */;
 			buildPhases = (
 				366179151A0026640031CE29 /* Sources */,
 				366179161A0026640031CE29 /* Frameworks */,
@@ -266,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = pushrvc;
+			name = Furr;
 			productName = ParseExample;
-			productReference = 366179191A0026640031CE29 /* pushrvc.app */;
+			productReference = 366179191A0026640031CE29 /* Furr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		366179341A0026640031CE29 /* pushrvcTests */ = {
+		366179341A0026640031CE29 /* FurrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 366179421A0026640031CE29 /* Build configuration list for PBXNativeTarget "pushrvcTests" */;
+			buildConfigurationList = 366179421A0026640031CE29 /* Build configuration list for PBXNativeTarget "FurrTests" */;
 			buildPhases = (
 				366179311A0026640031CE29 /* Sources */,
 				366179321A0026640031CE29 /* Frameworks */,
@@ -284,9 +300,9 @@
 			dependencies = (
 				366179371A0026640031CE29 /* PBXTargetDependency */,
 			);
-			name = pushrvcTests;
+			name = FurrTests;
 			productName = ParseExampleTests;
-			productReference = 366179351A0026640031CE29 /* pushrvcTests.xctest */;
+			productReference = 366179351A0026640031CE29 /* FurrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -296,11 +312,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Rock Valley College";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					366179181A0026640031CE29 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = LAK6SGQ7Q5;
 					};
 					366179341A0026640031CE29 = {
 						CreatedOnToolsVersion = 6.1;
@@ -308,7 +323,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 366179141A0026640031CE29 /* Build configuration list for PBXProject "pushrvc" */;
+			buildConfigurationList = 366179141A0026640031CE29 /* Build configuration list for PBXProject "Furr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -321,8 +336,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				366179181A0026640031CE29 /* pushrvc */,
-				366179341A0026640031CE29 /* pushrvcTests */,
+				366179181A0026640031CE29 /* Furr */,
+				366179341A0026640031CE29 /* FurrTests */,
 			);
 		};
 /* End PBXProject section */
@@ -332,10 +347,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362D4D9D1A033EED008D7537 /* logo.png in Resources */,
+				B0EF08911A1D312400706BE3 /* furr_-3_only.png in Resources */,
 				3661792B1A0026640031CE29 /* Main.storyboard in Resources */,
+				B076FAA51A186BB20012B33C /* furrlogo.png in Resources */,
 				366179301A0026640031CE29 /* LaunchScreen.xib in Resources */,
+				B0EF08921A1D312400706BE3 /* FurrIcon_120.png in Resources */,
+				B0EF08941A1D312400706BE3 /* FurrIcon180.png in Resources */,
+				B0EF08961A1D410800706BE3 /* Main.storyboard in Resources */,
 				3661792D1A0026640031CE29 /* Images.xcassets in Resources */,
+				B0EF08931A1D312400706BE3 /* furrIcon_appstore_retina in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +395,7 @@
 /* Begin PBXTargetDependency section */
 		366179371A0026640031CE29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 366179181A0026640031CE29 /* pushrvc */;
+			target = 366179181A0026640031CE29 /* Furr */;
 			targetProxy = 366179361A0026640031CE29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,13 +502,13 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/edu.rockvalleycollege.pushrvc.profdata";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Charlie Konkol (98T86C4H9F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charlie Konkol (98T86C4H9F)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = ParseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = pushrvc;
-				PROVISIONING_PROFILE = "947f612a-08e1-4d98-8c17-04b574c3e181";
+				PRODUCT_NAME = Furr;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -498,13 +518,13 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/edu.rockvalleycollege.pushrvc.profdata";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Charlie Konkol (98T86C4H9F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charlie Konkol (98T86C4H9F)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = ParseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = pushrvc;
-				PROVISIONING_PROFILE = "947f612a-08e1-4d98-8c17-04b574c3e181";
+				PRODUCT_NAME = Furr;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -522,7 +542,7 @@
 				);
 				INFOPLIST_FILE = ParseExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = pushrvcTests;
+				PRODUCT_NAME = FurrTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseExample.app/ParseExample";
 			};
 			name = Debug;
@@ -537,7 +557,7 @@
 				);
 				INFOPLIST_FILE = ParseExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = pushrvcTests;
+				PRODUCT_NAME = FurrTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseExample.app/ParseExample";
 			};
 			name = Release;
@@ -545,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		366179141A0026640031CE29 /* Build configuration list for PBXProject "pushrvc" */ = {
+		366179141A0026640031CE29 /* Build configuration list for PBXProject "Furr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3661793D1A0026640031CE29 /* Debug */,
@@ -554,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3661793F1A0026640031CE29 /* Build configuration list for PBXNativeTarget "pushrvc" */ = {
+		3661793F1A0026640031CE29 /* Build configuration list for PBXNativeTarget "Furr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				366179401A0026640031CE29 /* Debug */,
@@ -563,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		366179421A0026640031CE29 /* Build configuration list for PBXNativeTarget "pushrvcTests" */ = {
+		366179421A0026640031CE29 /* Build configuration list for PBXNativeTarget "FurrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				366179431A0026640031CE29 /* Debug */,

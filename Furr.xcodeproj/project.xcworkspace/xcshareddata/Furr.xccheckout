@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>15F02600-4773-4BED-8693-0E2D4D66390A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Furr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>340E53440E35D5FDD9FBEDAA63C8D99A19391441</key>
+		<string>https://github.com/yummsalad/ParseExample---Login-and-Chat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Furr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>340E53440E35D5FDD9FBEDAA63C8D99A19391441</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yummsalad/ParseExample---Login-and-Chat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>340E53440E35D5FDD9FBEDAA63C8D99A19391441</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>340E53440E35D5FDD9FBEDAA63C8D99A19391441</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParseExample---Login-and-Chat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
