@@ -136,10 +136,6 @@
     return cell;
 }
 
-
-- (IBAction)btnBack:(id)sender {
-      [self dismissViewControllerAnimated:YES completion:nil];
-}
 - (BOOL) checkinternet
 {
     NSURL *scriptUrl = [NSURL URLWithString:@"http://www.google.com/m"];

@@ -19,7 +19,7 @@
 */
 - (void)viewDidLoad {
     [super viewDidLoad];
-        [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"furrlogo.png"]]];
+        [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"FurrIcon_nobg_80.png"]]];
     
 }
 

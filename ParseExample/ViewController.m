@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PFLogin.h"
 #import <Parse/Parse.h>
+#import "ChatTableNavViewController.h"
 
 
 @interface ViewController ()
@@ -21,6 +22,13 @@
     [super viewDidLoad];
        // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void) userPage
+{
+    ChatTableNavViewController *users = [self.storyboard instantiateViewControllerWithIdentifier:@"userList"];
+    [self presentViewController:users animated:NO completion:nil];
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
   
@@ -44,6 +52,10 @@
         
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
+    }
+    else
+    {
+        [self userPage];
     }
     
     PFUser *currentUser = [PFUser currentUser];

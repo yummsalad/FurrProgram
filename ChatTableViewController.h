@@ -11,6 +11,6 @@
 #import "AppDelegate.h"
 
 @interface ChatTableViewController : PFQueryTableViewController
-- (IBAction)btnBack:(id)sender;
+
 
 @end
